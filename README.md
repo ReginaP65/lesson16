@@ -16,19 +16,19 @@ Frontend testing with Playwright.
 
 ## Project Setup
 
-### 1. Create a new project:
+1.Create a new project:
 ```bash
 npm init playwright@latest
-Install all dependencies:
+2.Install all dependencies:
 ```bash
 npm install
-Install Faker.js:
+3.Install Faker.js:
 ```bash
 npm install @faker-js/faker
 
-Create a .env file in the root directory
+4.Create a .env file in the root directory
 
-Run tests:
+5.Run tests:
 ```bash
 npx playwright test
  Debug mode:
