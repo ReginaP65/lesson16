@@ -6,7 +6,6 @@ import { faker } from '@faker-js/faker';
 const randomUsername= faker.internet.username();
 const randomPassword= faker.internet.password();
 
-
 test('Sign-in button is enable', async ({ page }) => {
   await page.goto(process.env.APP_URL);
   await page.getByTestId('username-input').fill(randomUsername);
