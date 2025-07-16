@@ -14,7 +14,6 @@ Frontend testing with Playwright.
 
 ---
 
-## Project Setup
 
 ## Project Setup
 
